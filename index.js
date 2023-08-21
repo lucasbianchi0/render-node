@@ -1,8 +1,9 @@
 import express from 'express'
 
 const app = express()
+
 app.get('/',(req,res)=>{
-    res.send('helou wuorl')
+    res.send('helou mundoo')
 })
 
 app.listen(3000)
